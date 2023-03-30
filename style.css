@@ -1,0 +1,245 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+.background{
+    z-index: -11;
+ position: fixed;
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+}
+
+.Motherofallarticlesjack{
+
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #000000;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+.Motherofallarticlesjack article{
+    padding: 20px;
+}
+.Motherofallarticlesjack h1{
+    color: white;
+}
+
+.articlemoment h1{
+    color: black;
+  
+}
+.why{
+    display: flex;
+  gap: 75%;
+    
+}
+.articlemoment {
+
+    background: right/contain content-box border-box no-repeat url('halal.png') white;
+}
+.Motherofallarticlesjack > h1,
+.articlemoment {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.articlemoment span{
+    color: red;
+}
+
+
+.modal{
+    display: none;
+    position: fixed;
+    left: 750px;
+    top: 400px;
+    width: 300px;
+    height: 200px;
+    background-image: url(real.jpg);
+    
+}
+.modal p{
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    font-size: 19px;
+    padding-bottom: 80px;
+}
+.modal h7{
+   
+    color: rgb(209, 0, 0);
+    cursor: pointer;
+}
+.modal span{
+    user-select: text;
+    color: rgb(45, 153, 3);
+    position: relative;
+left: 35%;
+}
+
+.realR8{
+    transition-duration: 1s;
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    height: 30px;
+    width: 100px;
+   background-image: url(Real.jpg);
+}
+
+.realR8 p{
+    
+    position: relative;
+    bottom: 0px;
+color: rgba(27, 14, 14, 0.788);
+}
+.thankstext{
+    transition-duration: 1s;
+}
+.datblackshi{
+    z-index: 2;
+    position: fixed;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    height: 50px;
+}
+
+
+
+.demontime{
+    transition-duration: 2s;
+   
+      background-color: rgb(11, 15, 17);
+      position: fixed;
+      right: -100%;
+      width: 100%;
+      height: 100vh;
+  }
+  .demontimesupreme{
+    right: 0;
+  }
+
+.demontimep{
+    transition-duration: 2s;
+    display: block;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    cursor: pointer;
+    font-size: 50px;
+    position: relative;
+    left: 40%;
+    top: 20%;
+}
+.demontime p:hover{
+    color: rgb(0, 255, 42);
+}
+.imlosingit{
+    background-image: url(halal.png);
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    width: 50px;
+    height: 50px;
+ 
+    z-index: 32;
+}
+
+.orami{
+    background-image:url(haram.png) ;
+}
+.textcontainer{
+   
+ 
+    user-select: none; 
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    gap: 45px;
+    cursor: pointer;
+    font-size: 50px;
+    position: relative;
+    left: 40%;
+    top: 100px;
+    
+}
+.textcontainer p  {
+    color: whitesmoke;
+    padding-top: 50px;
+}
+.homechanges{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: none;
+}
+.homechanges2{
+    display: block;
+}
+
+
+.Submit{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-image: url(test.jpg);
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 200px;
+    left: 650px;
+    border: solid 1px;
+    
+}
+.Submit button{
+    cursor: pointer;
+    background-image: url(test.jpg);
+    position: relative;
+    top: 50px;
+    left: 150px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    filter: blur(0.5px);
+    color: white;
+   
+}
+.Submit button:hover{
+    filter: blur(0px);
+    box-shadow: 0px 0px 10px 0px rgba(7, 240, 85, 0.5);
+}
+.Submit form{
+    z-index: 0;
+    padding-top: 80px;
+}
+
+.results{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-image: url(test.jpg);
+    color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 500px;
+    left: 100px;
+    border: solid 1px;
+}
+
+.container{
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.nameError{
+    
+    border: solid  rgb(245, 32, 4) 0.7px;
+ 
+
+}
